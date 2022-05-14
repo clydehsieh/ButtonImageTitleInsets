@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2CCCDD270C359300CA668C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CCCDC270C359300CA668C /* AppDelegate.swift */; };
+		EC2CCCDF270C359300CA668C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CCCDE270C359300CA668C /* SceneDelegate.swift */; };
+		EC2CCCE1270C359300CA668C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CCCE0270C359300CA668C /* ViewController.swift */; };
+		EC2CCCE4270C359300CA668C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2CCCE2270C359300CA668C /* Main.storyboard */; };
+		EC2CCCE6270C359500CA668C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2CCCE5270C359500CA668C /* Assets.xcassets */; };
+		EC2CCCE9270C359500CA668C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2CCCE7270C359500CA668C /* LaunchScreen.storyboard */; };
+		EC2CCCF4270C359500CA668C /* ButtonInsetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CCCF3270C359500CA668C /* ButtonInsetsTests.swift */; };
+		EC2CCCFF270C359500CA668C /* ButtonInsetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2CCCFE270C359500CA668C /* ButtonInsetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2CCCF0270C359500CA668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2CCCD1270C359300CA668C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2CCCD8270C359300CA668C;
+			remoteInfo = ButtonInsets;
+		};
+		EC2CCCFB270C359500CA668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2CCCD1270C359300CA668C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2CCCD8270C359300CA668C;
+			remoteInfo = ButtonInsets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2CCCD9270C359300CA668C /* ButtonInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2CCCDC270C359300CA668C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2CCCDE270C359300CA668C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC2CCCE0270C359300CA668C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2CCCE3270C359300CA668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2CCCE5270C359500CA668C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2CCCE8270C359500CA668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2CCCEA270C359500CA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2CCCEF270C359500CA668C /* ButtonInsetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonInsetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2CCCF3270C359500CA668C /* ButtonInsetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInsetsTests.swift; sourceTree = "<group>"; };
+		EC2CCCF5270C359500CA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2CCCFA270C359500CA668C /* ButtonInsetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonInsetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2CCCFE270C359500CA668C /* ButtonInsetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInsetsUITests.swift; sourceTree = "<group>"; };
+		EC2CCD00270C359500CA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2CCCD6270C359300CA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCEC270C359500CA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCF7270C359500CA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2CCCD0270C359300CA668C = {
+			isa = PBXGroup;
+			children = (
+				EC2CCCDB270C359300CA668C /* ButtonInsets */,
+				EC2CCCF2270C359500CA668C /* ButtonInsetsTests */,
+				EC2CCCFD270C359500CA668C /* ButtonInsetsUITests */,
+				EC2CCCDA270C359300CA668C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2CCCDA270C359300CA668C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CCCD9270C359300CA668C /* ButtonInsets.app */,
+				EC2CCCEF270C359500CA668C /* ButtonInsetsTests.xctest */,
+				EC2CCCFA270C359500CA668C /* ButtonInsetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2CCCDB270C359300CA668C /* ButtonInsets */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CCCDC270C359300CA668C /* AppDelegate.swift */,
+				EC2CCCDE270C359300CA668C /* SceneDelegate.swift */,
+				EC2CCCE0270C359300CA668C /* ViewController.swift */,
+				EC2CCCE2270C359300CA668C /* Main.storyboard */,
+				EC2CCCE5270C359500CA668C /* Assets.xcassets */,
+				EC2CCCE7270C359500CA668C /* LaunchScreen.storyboard */,
+				EC2CCCEA270C359500CA668C /* Info.plist */,
+			);
+			path = ButtonInsets;
+			sourceTree = "<group>";
+		};
+		EC2CCCF2270C359500CA668C /* ButtonInsetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CCCF3270C359500CA668C /* ButtonInsetsTests.swift */,
+				EC2CCCF5270C359500CA668C /* Info.plist */,
+			);
+			path = ButtonInsetsTests;
+			sourceTree = "<group>";
+		};
+		EC2CCCFD270C359500CA668C /* ButtonInsetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CCCFE270C359500CA668C /* ButtonInsetsUITests.swift */,
+				EC2CCD00270C359500CA668C /* Info.plist */,
+			);
+			path = ButtonInsetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2CCCD8270C359300CA668C /* ButtonInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CCD03270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsets" */;
+			buildPhases = (
+				EC2CCCD5270C359300CA668C /* Sources */,
+				EC2CCCD6270C359300CA668C /* Frameworks */,
+				EC2CCCD7270C359300CA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonInsets;
+			productName = ButtonInsets;
+			productReference = EC2CCCD9270C359300CA668C /* ButtonInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2CCCEE270C359500CA668C /* ButtonInsetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CCD06270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsetsTests" */;
+			buildPhases = (
+				EC2CCCEB270C359500CA668C /* Sources */,
+				EC2CCCEC270C359500CA668C /* Frameworks */,
+				EC2CCCED270C359500CA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2CCCF1270C359500CA668C /* PBXTargetDependency */,
+			);
+			name = ButtonInsetsTests;
+			productName = ButtonInsetsTests;
+			productReference = EC2CCCEF270C359500CA668C /* ButtonInsetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2CCCF9270C359500CA668C /* ButtonInsetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2CCD09270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsetsUITests" */;
+			buildPhases = (
+				EC2CCCF6270C359500CA668C /* Sources */,
+				EC2CCCF7270C359500CA668C /* Frameworks */,
+				EC2CCCF8270C359500CA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2CCCFC270C359500CA668C /* PBXTargetDependency */,
+			);
+			name = ButtonInsetsUITests;
+			productName = ButtonInsetsUITests;
+			productReference = EC2CCCFA270C359500CA668C /* ButtonInsetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2CCCD1270C359300CA668C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC2CCCD8270C359300CA668C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EC2CCCEE270C359500CA668C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EC2CCCD8270C359300CA668C;
+					};
+					EC2CCCF9270C359500CA668C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EC2CCCD8270C359300CA668C;
+					};
+				};
+			};
+			buildConfigurationList = EC2CCCD4270C359300CA668C /* Build configuration list for PBXProject "ButtonInsets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2CCCD0270C359300CA668C;
+			productRefGroup = EC2CCCDA270C359300CA668C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2CCCD8270C359300CA668C /* ButtonInsets */,
+				EC2CCCEE270C359500CA668C /* ButtonInsetsTests */,
+				EC2CCCF9270C359500CA668C /* ButtonInsetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2CCCD7270C359300CA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CCCE9270C359500CA668C /* LaunchScreen.storyboard in Resources */,
+				EC2CCCE6270C359500CA668C /* Assets.xcassets in Resources */,
+				EC2CCCE4270C359300CA668C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCED270C359500CA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCF8270C359500CA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2CCCD5270C359300CA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CCCE1270C359300CA668C /* ViewController.swift in Sources */,
+				EC2CCCDD270C359300CA668C /* AppDelegate.swift in Sources */,
+				EC2CCCDF270C359300CA668C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCEB270C359500CA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CCCF4270C359500CA668C /* ButtonInsetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2CCCF6270C359500CA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CCCFF270C359500CA668C /* ButtonInsetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2CCCF1270C359500CA668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2CCCD8270C359300CA668C /* ButtonInsets */;
+			targetProxy = EC2CCCF0270C359500CA668C /* PBXContainerItemProxy */;
+		};
+		EC2CCCFC270C359500CA668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2CCCD8270C359300CA668C /* ButtonInsets */;
+			targetProxy = EC2CCCFB270C359500CA668C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2CCCE2270C359300CA668C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2CCCE3270C359300CA668C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2CCCE7270C359500CA668C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2CCCE8270C359500CA668C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2CCD01270C359500CA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2CCD02270C359500CA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2CCD04270C359500CA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2CCD05270C359500CA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC2CCD07270C359500CA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonInsets.app/ButtonInsets";
+			};
+			name = Debug;
+		};
+		EC2CCD08270C359500CA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonInsets.app/ButtonInsets";
+			};
+			name = Release;
+		};
+		EC2CCD0A270C359500CA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonInsets;
+			};
+			name = Debug;
+		};
+		EC2CCD0B270C359500CA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366RSKGH9H;
+				INFOPLIST_FILE = ButtonInsetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clydeTest.ButtonInsetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonInsets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2CCCD4270C359300CA668C /* Build configuration list for PBXProject "ButtonInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CCD01270C359500CA668C /* Debug */,
+				EC2CCD02270C359500CA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CCD03270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CCD04270C359500CA668C /* Debug */,
+				EC2CCD05270C359500CA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CCD06270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CCD07270C359500CA668C /* Debug */,
+				EC2CCD08270C359500CA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2CCD09270C359500CA668C /* Build configuration list for PBXNativeTarget "ButtonInsetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2CCD0A270C359500CA668C /* Debug */,
+				EC2CCD0B270C359500CA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2CCCD1270C359300CA668C /* Project object */;
+}
